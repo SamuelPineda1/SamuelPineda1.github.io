@@ -43,7 +43,7 @@ const projects: Project[] = [
     description:
       'WordPress + Astra site with blog + affiliate product recommendations focused on French Bulldogs.',
     tech: ['JavaScript', 'SVG'],
-    demo: "SamuelPineda1/triangle-game/index.html",
+    demo: "/triangle-game/index.html",
   },
 ];
 
