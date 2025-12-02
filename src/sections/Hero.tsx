@@ -1,5 +1,6 @@
 import React from 'react';
-import { Box, Container, Grid, Typography, Button, Paper } from '@mui/material';
+import { Box, Container, Typography, Button} from '@mui/material';
+import Grid from "@mui/material/Grid";
 
 export const Hero: React.FC = () => {
   const scrollTo = (id: string) => {
@@ -22,7 +23,7 @@ export const Hero: React.FC = () => {
       <Container maxWidth="md">
         <Grid container spacing={6} alignItems="center">
           {/* Left side text */}
-          <Grid item xs={12} md={7}>
+          <Grid size={{xs:12, md:7}} >
             <Typography
               variant="overline"
               sx={{ color: 'primary.main', letterSpacing: '0.18em' }}
